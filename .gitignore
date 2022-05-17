@@ -1,0 +1,24 @@
+REM "TO BUILD A SIMPLE CALCULATOR"
+CLS
+INPUT "Enter First Number"; n1
+INPUT "Enter Operator"; op$
+INPUT "Enter Second Number"; n2
+
+IF op$ = "+" THEN
+    PRINT n1 + n2
+END IF
+
+IF op$ = "-" THEN
+    PRINT n1 - n2
+END IF
+
+IF op$ = "*" THEN
+    PRINT n1 * n2
+END IF
+
+IF op$ = "/" THEN
+    PRINT n1 / n2
+END IF
+
+END
+
